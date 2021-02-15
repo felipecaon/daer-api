@@ -1,0 +1,28 @@
+{
+  "name": "daer-api",
+  "version": "1.0.0",
+  "description": "O DAER não tem API então vamos fazer uma. A princípio será do Rio Grande do Sul.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipecaon/daer-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipecaon/daer-api/issues"
+  },
+  "homepage": "https://github.com/felipecaon/daer-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "^10.0.6",
+    "node-html-parser": "^2.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
