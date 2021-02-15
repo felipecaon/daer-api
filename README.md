@@ -17,3 +17,4 @@ Ideias
 Buscar número carros que passaram por rodovia em horário <<< precisa ter stream decente, necessário validar
 Hostear em algum lugar que cacheie dados de graça
 
+Mapa que avisa pardais/cameras/lombadas de acordo com trajeto.
