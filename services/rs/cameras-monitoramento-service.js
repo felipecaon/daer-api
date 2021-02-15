@@ -1,5 +1,5 @@
 import axios from 'axios';
-import CameraMonitoramentoDto from '../../dto/rs/camera-monitoramento'
+import CameraMonitoramentoDto from '../../dto/rs/camera-monitoramento-dto'
 import { parse } from 'node-html-parser';
 
 const fetchCamerasMonitoramento = async() => {

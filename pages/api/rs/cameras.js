@@ -1,4 +1,4 @@
-import { getCamerasMonitoramentoData } from '../../../services/rs/cameras-monitoramento';
+import { getCamerasMonitoramentoData } from '../../../services/rs/cameras-monitoramento-service';
 
 const action = async (request, response) => {
   const allCamerasMonitoramentoData = await getCamerasMonitoramentoData();
