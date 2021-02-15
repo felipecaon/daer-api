@@ -2,10 +2,10 @@ O DAER não tem API então vamos fazer uma. A princípio será do Rio Grande do 
 
 Esta API possui:
 [x] Câmeras de rodovias
-[ ] Pardais
+[x] Pardais
 [ ] Radares Móveis
 [ ] Lombadas
-[ ] Dipositivos leitores de placas
+[x] Dipositivos leitores de placas
 [ ] Busca de info por placa
 
 TODO
