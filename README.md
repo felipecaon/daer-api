@@ -1,13 +1,15 @@
 O DAER não tem API então vamos fazer uma. A princípio será do Rio Grande do Sul.
 
 Esta API possui:
-[ ] Câmeras de rodovias
+[x] Câmeras de rodovias
 [ ] Pardais
 [ ] Radares Móveis
 [ ] Lombadas
 [ ] Dipositivos leitores de placas
 [ ] Busca de info por placa
 
+TODO
+[ ] Cachear tudo
 ------
 
 Ideias
