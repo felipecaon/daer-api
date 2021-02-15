@@ -12,9 +12,9 @@ const fetchStreamLink = async(urlAmigavel) => {
     const urlStreamInfo = `https://www.daer.rs.gov.br/_service/mapacameras?urlamigavel=${urlAmigavel}&alttemplate=pagina.listalocal.mapacameras.conteudolocal`;
     const { data: body } = await axios.get(urlStreamInfo);
 
-    const el = parse(body);
+    const parsedHtml = parse(body);
 
-    return el.querySelector('.cameraRodovia').getAttribute('src');
+    return parsedHtml.querySelector('.cameraRodovia').getAttribute('src');
 }
 
 const formatResponse = async(response) => {
